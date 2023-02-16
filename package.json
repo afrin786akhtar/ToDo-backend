@@ -1,0 +1,24 @@
+{
+  "name": "todo-backend",
+  "version": "1.0.0",
+  "description": "\"To-do Backend Project\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afrin786akhtar/ToDo-backend.git"
+  },
+  "author": "Afrin Akhtar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afrin786akhtar/ToDo-backend/issues"
+  },
+  "homepage": "https://github.com/afrin786akhtar/ToDo-backend#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "nodemon": "^2.0.20"
+  }
+}
