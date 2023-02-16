@@ -34,7 +34,7 @@ const updateList = async function (req, res) {
         // let dataPresent = await ToDoListModel.findByIdAndUpdate({_id : id});
         // if (!dataPresent) return res.send({ msg: "No Data Found" });
 
-        let updateData = await ToDoListModel.findOneAndUpdate({_id : id} , { $set: { text } }, { new: true });
+        let updateData = await ToDoListModel.findOneAndUpdate({_id : id} , { $set: { Text : text } }, { new: true });
         console.log(updateData);
         return res.send({ msg: "Data updated Succesfully.", data: updateData });
 
